@@ -41,7 +41,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="762"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zGG-h6-trR" userLabel="Green Custom View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="222.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="762"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="QQn-gc-rVE" userLabel="Top Blue Stack View">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -65,7 +65,7 @@
                                                 </constraints>
                                             </stackView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SlW-Lh-1j7" userLabel="Yellow Text View">
-                                                <rect key="frame" x="0.0" y="56" width="414" height="166.5"/>
+                                                <rect key="frame" x="0.0" y="56" width="414" height="706"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
@@ -91,6 +91,7 @@
                                     <constraint firstItem="zGG-h6-trR" firstAttribute="leading" secondItem="GTn-fN-T8d" secondAttribute="leading" id="Gmu-sC-0hN"/>
                                     <constraint firstItem="zGG-h6-trR" firstAttribute="bottom" secondItem="GTn-fN-T8d" secondAttribute="bottom" id="Y3L-SL-2TW"/>
                                     <constraint firstItem="zGG-h6-trR" firstAttribute="width" secondItem="LKb-qR-NxX" secondAttribute="width" id="gyv-0f-pAx"/>
+                                    <constraint firstItem="zGG-h6-trR" firstAttribute="height" relation="greaterThanOrEqual" secondItem="LKb-qR-NxX" secondAttribute="height" id="hBN-EH-F2e"/>
                                     <constraint firstItem="zGG-h6-trR" firstAttribute="top" secondItem="GTn-fN-T8d" secondAttribute="top" id="ttS-Kr-iFU"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="GTn-fN-T8d"/>
